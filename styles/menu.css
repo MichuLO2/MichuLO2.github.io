@@ -1,0 +1,32 @@
+* {padding:0; margin:0;}
+html {width:100%; height:100%;}
+body {font-family: 'Century Gothic'; text-align: center;}
+
+.container {width:720px; margin:auto;}
+
+header {width:100%; height:80px; margin:20px 0px 5px; clear:both; font-size:20px; line-height:80px; color:#FBFBFB; background:#393E41;}
+
+#main {float:right; width:480px; height:640px; margin:0 0 5px;}
+#main img {height: 640px;}
+
+aside {float:left; width:235px; height:640px; line-height:318px; margin:0 0 5px; font-size:20px;}
+aside nav ul {list-style:none;}
+aside nav ul li {margin-bottom:4px;}
+aside nav ul li a {display:block; text-decoration:none; color:#000; background:#CB4347;}
+aside nav ul li a:hover{color:#FBFBFB; background:#393E41;}
+
+footer {width:100%; height:50px; clear:both; line-height:50px; color:#FBFBFB; background:#393E41;}
+
+
+@media (min-width: 750px) {
+.container {width:720px;}
+aside {width:235px;}
+#main {width:480px;}
+}
+
+@media (max-width: 750px) {
+.container {width:400px;}
+aside {width:100%; font-size:30px;}
+#main {width:400px; height:520px;}
+#main img {width:400px; height:520px;}
+}
