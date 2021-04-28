@@ -26,7 +26,7 @@ aside {width:235px;}
 
 @media (max-width: 750px) and (min-width: 500px) {
 .container {width:400px;}
-aside {width:100%; font-size:30px;}
+aside {width:100%; font-size:36px;}
 #main {width:400px; height:520px;}
 #main img {width:400px; height:520px;}
 }
