@@ -7,7 +7,7 @@ body {font-family: 'Century Gothic'; text-align: center;}
 header {width:100%; height:80px; margin:20px 0px 5px; clear:both; font-size:20px; line-height:80px; color:#FBFBFB; background:#393E41;}
 
 #main {float:right; width:480px; height:640px; margin:0 0 5px;}
-#main img {height: 640px;}
+#main img {width:480px; height: 640px;}
 
 aside {float:left; width:235px; height:640px; line-height:318px; margin:0 0 5px; font-size:20px;}
 aside nav ul {list-style:none;}
