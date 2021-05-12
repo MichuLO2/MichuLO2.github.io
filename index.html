@@ -9,29 +9,10 @@
 		
 		<title>Menu</title>
 		
-		<link href="styles/menu.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/index.css" rel="stylesheet" type="text/css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		
-		<script type="text/javascript">
-			var imageNumber = 0;
-			var path = new Array(); 
-
-			// LIST OF IMAGES 
-			path[0] = "img/sexy1.JPG"; 
-			path[1] = "img/sexy2.JPG"; 
-			path[2] = "img/sexy3.JPG";
-			path[3] = "img/sexy4.JPG";
-			path[4] = "img/sexy5.JPG";
-
-			function swapImage() 
-			{
-			document.slides.src = path[imageNumber]; 
-			if(imageNumber < path.length - 1) imageNumber++; 
-			else imageNumber = 0; 
-			setTimeout("swapImage()",3000);
-			} 
-			window.onload=swapImage; 
-		</script>
+		<script type="text/javascript" src="scripts/index.js"></script>
 	</head>
 	
 	<body>
@@ -56,6 +37,7 @@
 					<ul>
 						<li><a href="seasons.html">Pory roku</a></li>
 						<li><a href="table.html">Państwa świata</a></li>
+						<li><a href="math.html">Ciąg arytmetyczny</a></li>
 					</ul>
 				</nav>
 			</aside>
